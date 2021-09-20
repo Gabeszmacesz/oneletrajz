@@ -1,0 +1,71 @@
+html {
+    background-image: url(https://codingwithcodex.co.uk/wp-content/uploads/2021/01/coding-bg.jpg);
+}
+h1 {
+    font-size: 100px;
+    color: lightsteelblue;
+}
+
+h2 {
+    font-size: 40px;
+    color: lightsteelblue;
+    text-decoration: underline;
+}
+div {
+   
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 60px;
+    }
+section {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 60px;
+        padding-right: 100px;
+    }
+
+#myself {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+img {
+    width: 120px;
+    height: 100px;
+    position: relative;
+    
+}
+p {
+    background: linear-gradient(#555ff0, #2d9ae4);
+    width: 400px;
+    height: 120px;
+    text-align: left;
+    font-size: 16px;
+    padding: 20px;
+    padding-top: 50px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    line-height: 150%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.experience {
+    padding-left: 60px;
+}
+footer {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    
+}
